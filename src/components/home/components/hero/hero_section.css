@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.hero_wrpr{
+    background-image: url('./img/hero_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 645px;
+}
+.hero_inner_wrpr{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.hero_offer_wrpr{
+    background: linear-gradient(93.34deg, #2D3C78 17.95%, #5161A2 95.54%);
+}

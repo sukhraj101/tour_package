@@ -1,0 +1,9 @@
+.footer_top_wrpr{
+    background: linear-gradient(93.34deg, #2D3C78 17.95%, #5161A2 95.54%);
+}
+.footer_top{
+    /*** temp height ***/
+    height: 1041px;
+    max-width: 1400px;
+    margin-inline:auto;
+}
