@@ -36,13 +36,13 @@ const Offer = () => {
                 <div className="offer_images_wrpr">
                     <div className="offer_images_card">
                         <Box className="offer_images_list" flex={'0 1 30%'}>
-                            <img src={offerImg} alt="Offer Images" />
+                            <img src={offerImg} alt="Offer Images" width={"100%"} />
                         </Box>
                         <Box className="offer_images_list" flex={'0 1 30%'}>
-                            <img src={offerImg} alt="Offer Images" />
+                            <img src={offerImg} alt="Offer Images" width={"100%"} />
                         </Box>
                         <Box className="offer_images_list" flex={'0 1 30%'}>
-                            <img src={offerImg} alt="Offer Images" />
+                            <img src={offerImg} alt="Offer Images" width={"100%"} />
                         </Box>
                     </div>
                 </div>

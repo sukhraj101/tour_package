@@ -6,7 +6,7 @@ const scrollbar_bg_color_2 = "#bbb"
 
 export const theme = createTheme({
     typography: {
-        fontFamily: "Poppins, sans-serif",
+        fontFamily: 'Gilroy',
         fontSize: 12,
         button: {
             textTransform: "none",
@@ -22,6 +22,15 @@ export const theme = createTheme({
     },
 
     components: {
+        MuiContainer: {
+            styleOverrides: {
+                root: {
+                    maxWidth: "1440px",
+                    paddingLeft: "20px !important",
+                    paddingRight: "20px !important",
+                }
+            },
+        },
         MuiCssBaseline: {
             styleOverrides: {
                 body: {

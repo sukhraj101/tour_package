@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
         </Box> */}
         <Box className='footer_bottom_wrpr' sx={{background:"#000"}}>
-          <Box className="footer_bottom" sx={{maxWidth:"1400px",marginInline:'auto',padding:"0 20px"}}>
+          <Box className="footer_bottom" sx={{maxWidth:"1440px",marginInline:'auto',padding:"0 20px"}}>
             <Box className="footer_copyright" sx={{display:'flex',alignItems:'center',columnGap:"1%"}}>
               <Box component={'p'} className="footer_copyright_txt" sx={{fontWeight:'500',fontSize:'16px',color:"#fff",padding:"12px 0"}}>Powered by:</Box>
               <div className="footer_copyright_img">
